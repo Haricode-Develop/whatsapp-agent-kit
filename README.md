@@ -2,7 +2,7 @@
 
 A small, production-minded starting point for an AI agent that answers a business's WhatsApp: it replies with the business's own services, prices and hours, offers real appointment times, books them, and hands the conversation to a person when it should.
 
-Built on the official **WhatsApp Cloud API** and **Claude** (`@anthropic-ai/sdk`). About 600 lines of TypeScript, one runtime dependency, and tests that run without the network.
+Built on the official **WhatsApp Cloud API** and **Claude** (`@anthropic-ai/sdk`). About 700 lines of TypeScript, one runtime dependency, and tests that run without the network.
 
 It comes from building [Dilo](https://www.dilotodo.com/en), an AI agent that runs WhatsApp for small businesses in Latin America, at [Haricode](https://www.haricode.tech/). In Latin America, WhatsApp is where customers ask, book and buy. This kit contains the parts we'd want on day one, without the rest of our product.
 
