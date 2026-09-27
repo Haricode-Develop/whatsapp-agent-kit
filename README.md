@@ -1,5 +1,7 @@
 # WhatsApp Agent Kit
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6) ![WhatsApp Cloud API](https://img.shields.io/badge/WhatsApp-Cloud%20API-25D366) ![Claude](https://img.shields.io/badge/Claude-Opus%205-d97757)
+
 A small, production-minded starting point for an AI agent that answers a business's WhatsApp: it replies with the business's own services, prices and hours, offers real appointment times, books them, and hands the conversation to a person when it should.
 
 Built on the official **WhatsApp Cloud API** and **Claude** (`@anthropic-ai/sdk`). About 700 lines of TypeScript, one runtime dependency, and tests that run without the network.
