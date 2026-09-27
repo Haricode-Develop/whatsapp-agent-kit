@@ -1,0 +1,33 @@
+{
+  "name": "Casa Jade Spa",
+  "description": "A small day spa (fictional example business) offering massages and facials. Payment in cash or card at the spa.",
+  "timezone": "America/Guatemala",
+  "defaultLanguage": "es",
+  "locations": ["Zona 10, Guatemala City. Parking available in front of the building."],
+  "services": [
+    { "name": "Relaxing massage", "price": 350, "currency": "GTQ", "durationMinutes": 60, "description": "Full-body massage with warm oils" },
+    { "name": "Deep tissue massage", "price": 450, "currency": "GTQ", "durationMinutes": 60 },
+    { "name": "Classic facial", "price": 300, "currency": "GTQ", "durationMinutes": 60, "description": "Cleansing, exfoliation and hydration" }
+  ],
+  "openingHours": {
+    "mon": ["09:00-13:00", "14:00-18:00"],
+    "tue": ["09:00-13:00", "14:00-18:00"],
+    "wed": ["09:00-13:00", "14:00-18:00"],
+    "thu": ["09:00-13:00", "14:00-18:00"],
+    "fri": ["09:00-13:00", "14:00-18:00"],
+    "sat": ["09:00-14:00"]
+  },
+  "faq": [
+    { "question": "Do you sell gift cards?", "answer": "Yes, for any service. They are paid at the spa and valid for 6 months." },
+    { "question": "Can couples book together?", "answer": "Yes, we have one couples room; book two services at the same time." }
+  ],
+  "policies": [
+    "Arrive 10 minutes early.",
+    "Cancellations with less than 24 hours' notice are charged 50%."
+  ],
+  "handoffWhen": [
+    "the customer asks about a medical condition, pregnancy or an allergy",
+    "the customer wants a group or corporate booking",
+    "the customer asks for a refund or complains about a past visit"
+  ]
+}
